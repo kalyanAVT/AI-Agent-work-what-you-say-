@@ -43,7 +43,7 @@ Follow these steps to run the project locally:
 ## Install Dependencies
 Run the following command in the project directory to install the required dependencies:
     ```bash
-    npm install
+   npm install
 
 ## Set Up Environment Variables
 Create a .env file in the root of the project directory and add your OpenAI API key:
@@ -62,10 +62,10 @@ Open your browser and navigate to:
 
 
 ## Usage Instructions
-1.Click the "🎙️ Start Speaking" button to record your voice command.
-2.The application will process your input and send it to OpenAI's GPT-3.5 for response generation.
-3.The AI response will be displayed on the interface and played back using audio.
-4.Use the Dark/Light Mode Toggle to switch themes.
+- 1.Click the "🎙️ Start Speaking" button to record your voice command.
+- 2.The application will process your input and send it to OpenAI's GPT-3.5 for response generation.
+- 3.The AI response will be displayed on the interface and played back using audio.
+- 4.Use the Dark/Light Mode Toggle to switch themes.
 
 ## Technologies Used
 ### Frontend:
