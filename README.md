@@ -42,22 +42,22 @@ Follow these steps to run the project locally:
 
 ## Install Dependencies
 Run the following command in the project directory to install the required dependencies
-```bash
+    ```bash
 npm install
 
 ## Set Up Environment Variables
 Create a .env file in the root of the project directory and add your OpenAI API key:
-```bash
+    ```bash
 OPENAI_API_KEY=your_openai_api_key
 
 ## Start the Server
 Start the application server with the following command: 
-```bash
+    ```bash
 node server.js
 
 ## Access the Application
 Open your browser and navigate to:
-```bash
+    ```bash
 http://localhost:3000
 
 
