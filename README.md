@@ -51,7 +51,7 @@ Create a .env file in the root of the project directory and add your OpenAI API 
     OPENAI_API_KEY=your_openai_api_key
 
 ## Start the Server
-Start the application server with the following command:
+Start the application server with the following command: 
     ```bash
     node server.js
 
@@ -69,16 +69,11 @@ Open your browser and navigate to:
 
 ## Technologies Used
 ### Frontend:
-HTML, CSS, JavaScript
-SpeechRecognition API
-SpeechSynthesis API
+HTML, CSS, JavaScript, SpeechRecognition API, SpeechSynthesis API
 ### Backend:
-Node.js
-Express.js
-Socket.io
+Node.js, Express.js, Socket.io
 ### Third-Party Services:
-OpenAI API
-Google Text-to-Speech (TTS) API
+OpenAI API, Google Text-to-Speech (TTS) API
 
 ## Known Issues
 The application might not work on older browsers that do not support SpeechRecognition or SpeechSynthesis APIs.
