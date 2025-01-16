@@ -41,31 +41,31 @@ Follow these steps to run the project locally:
    cd AI_Voice_Assistant
 
 ## Install Dependencies
-Run the following command in the project directory to install the required dependencies:
-    ```bash
-   npm install
+Run the following command in the project directory to install the required dependencies
+```bash
+npm install
 
 ## Set Up Environment Variables
 Create a .env file in the root of the project directory and add your OpenAI API key:
-    ```bash
-    OPENAI_API_KEY=your_openai_api_key
+```bash
+OPENAI_API_KEY=your_openai_api_key
 
 ## Start the Server
 Start the application server with the following command: 
-    ```bash
-    node server.js
+```bash
+node server.js
 
 ## Access the Application
 Open your browser and navigate to:
-    ```bash
-    http://localhost:3000
+```bash
+http://localhost:3000
 
 
 ## Usage Instructions
-- 1.Click the "🎙️ Start Speaking" button to record your voice command.
-- 2.The application will process your input and send it to OpenAI's GPT-3.5 for response generation.
-- 3.The AI response will be displayed on the interface and played back using audio.
-- 4.Use the Dark/Light Mode Toggle to switch themes.
+- Click the "🎙️ Start Speaking" button to record your voice command.
+- The application will process your input and send it to OpenAI's GPT-3.5 for response generation.
+- The AI response will be displayed on the interface and played back using audio.
+- Use the Dark/Light Mode Toggle to switch themes.
 
 ## Technologies Used
 ### Frontend:
