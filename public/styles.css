@@ -1,0 +1,80 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#assistant-response {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#app.light-mode {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button.light-mode {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#toggle-mode.light-mode {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+#app.dark-mode {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+button.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+#toggle-mode.dark-mode {
+    background-color: #333;
+    color: #fff;
+}

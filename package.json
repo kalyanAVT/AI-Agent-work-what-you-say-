@@ -1,0 +1,26 @@
+{
+  "name": "voice-assistant-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "kalyan",
+  "license": "ISC",
+  "description": "A web-based voice assistant using AI",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-tts-api": "^2.0.2",
+    "openai": "^4.77.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

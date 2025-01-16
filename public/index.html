@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Voice Assistant</h1>
+        <button id="record-button">🎙️ Start Speaking</button>
+        <p id="output">You said: <span id="user-speech"></span></p>
+        <p id="ai-response">AI: <span id="assistant-response"></span></p>
+        <!-- Dark/Light Mode Toggle -->
+        <button id="toggle-mode">🌙 Dark Mode</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
