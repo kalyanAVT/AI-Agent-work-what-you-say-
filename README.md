@@ -43,7 +43,7 @@ Follow these steps to run the project locally:
 ## Install Dependencies
 Run the following command in the project directory to install the required dependencies
    ```bash
-   npm install
+npm install
    ```
 ## Set Up Environment Variables
 Create a .env file in the root of the project directory and add your OpenAI API key:
@@ -80,7 +80,9 @@ The application might not work on older browsers that do not support SpeechRecog
 Google TTS has a 200-character limit for each request, so long responses are split into chunks.
 
 ## Contribution
+
 Feel free to fork this repository and submit pull requests. Contributions are always welcome!
 
 ## License
+
 This project is licensed under the MIT License.
