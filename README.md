@@ -42,9 +42,9 @@ Follow these steps to run the project locally:
 
 ## Install Dependencies
 Run the following command in the project directory to install the required dependencies
-   ```bash
+    ```bash
 npm install
-   ```
+
 ## Set Up Environment Variables
 Create a .env file in the root of the project directory and add your OpenAI API key:
    ```bash
